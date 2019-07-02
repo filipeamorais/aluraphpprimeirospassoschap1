@@ -1,9 +1,12 @@
 <?php
 
-$idade=21;
+$idade = 16;
 
-echo "\t Olá mundo! Minha idade é $idade" .PHP_EOL;
+echo "Olá mundo!" . PHP_EOL;
+echo "Eu tenho \"$idade\" anos";
 
-$idade = 21;
+echo PHP_EOL . PHP_EOL;
 
-echo 'Olá mundo! Minha idade é ' . $idade;
+echo "Você só pode entrar, se tiver mais de 18 anos\n";
+
+echo "Você tem $idade anos. Pode entrar";
